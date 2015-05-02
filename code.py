@@ -23,8 +23,6 @@ def getlevelDefinition(domain):
     x = cursor.execute(s)
     return next(x)[0]
 
-
-
 def colour(string,domain):
     
     if domain=="KNOWLEDGE":       return t.red_on_white(string)
